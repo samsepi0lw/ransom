@@ -19,7 +19,7 @@ with open("store.key", "rb") as thekey:
 
 secret_input_key = "samsepiol"
 
-user_input = input("SeCr3T KeY?:\n"
+user_input = input("SeCr3T KeY?:\n")
 
 if user_input == secret_input_key:
     for file in files:
