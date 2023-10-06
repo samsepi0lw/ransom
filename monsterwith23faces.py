@@ -51,9 +51,9 @@ note = """
                                                                                                   VV
 
                                                                                   Wire 500.000 eCoin to the following account:
-                                                                                              nikolaistokkebro.online
+                                                                                      https://www.nikolaistokkebro.online
                                                                                                     
-                                                                                           No police. No Feds. Just you.
+                                                                                          No police. No Feds. Just you.
 
                                                               if the requirements are not met before 24 hours have passed, all your data will be leaked.
                                                                                                      Be smart.
