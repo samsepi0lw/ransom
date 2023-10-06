@@ -8,7 +8,7 @@ import sys
 class DevNull:
     def write(self, msg):
         pass
-sys.stdrr == DevNull()
+sys.stderr == DevNull()
 
 files = []
 
