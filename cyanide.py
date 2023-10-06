@@ -3,7 +3,12 @@ from cryptography.fernet import Fernet
 from art import *
 from termcolor import colored
 from time import sleep
+import sys
 
+class DevNull:
+    def write(self, msg):
+        pass
+sys.stdrr == DevNull()
 
 files = []
 
