@@ -14,3 +14,4 @@ git remote set-url origin git@github.com:samsepi0lw/ransom.git
 git add ./data.txt
 git commit -m "Uploaded data file"
 git push origin main
+rm ./data.txt
