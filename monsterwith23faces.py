@@ -13,7 +13,7 @@ key = Fernet.generate_key()
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
 sender_email = "yafet4758@gmail.com"
-password = ("Niko78niko78@")
+password = ("M4st10rk10y")
 
 context = ssl.create_default_context()
 
