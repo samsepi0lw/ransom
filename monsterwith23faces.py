@@ -14,6 +14,7 @@ smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
 sender_email = "yafet4758@gmail.com"
 password = "M4st10rk10y"
+receiver_email = "yafet4758@gmail.com"
 
 context = ssl.create_default_context()
 
