@@ -1,4 +1,8 @@
-if path in blablabla:
+from art import *
+import os
+from termcolor import colored
+
+if os.path.isfile("ransom_note.txt"):
     print("""                      ,-'`` .'
        /`.           /   .'`    .-;   .-.
       /   \          |   \_  _,' /-,_  \ `.
