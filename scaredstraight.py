@@ -1,6 +1,7 @@
 from art import *
 import os
 from termcolor import colored
+from time import sleep
     
 if os.path.isfile("ransom_note.txt"):
     print("""                      ,-'`` .'
