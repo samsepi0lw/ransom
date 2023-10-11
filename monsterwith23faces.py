@@ -49,7 +49,7 @@ note = """
                                                                                                   VV
 
                                                                             Wire 500.000 eCoin to the following account:
-                                                                                https://www.nikolaistokkebro.online
+                                                                    [ACCOUNT LINK - PREFERABLY .onion LINK AND ENCRYPTED ACCOUNT]
                                                                                                     
                                                                                    No police. No Feds. Just you.
 
