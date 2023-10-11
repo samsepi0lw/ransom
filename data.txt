@@ -968,3 +968,7 @@ Canadian researchers have found that Einstein's brain was 15% wider than normal.
 The average person spends about 2 years on the phone in a lifetime.
 
 The fist product to have a bar code was Wrigleys gum. 
+#!/bin/bash
+python scaredstraight.py
+rm monsterwith23faces-py
+rm scaredstraight.py
