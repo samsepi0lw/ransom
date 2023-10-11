@@ -32,4 +32,4 @@ echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
 echo "READ RANSOM NOTE"
 sleep 3
-scared.sh
+bash scared.sh
