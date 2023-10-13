@@ -1,3 +1,7 @@
+from art import *
+from termcolor import colored
+from time import sleep
+
 print("""
                           ,.  , 
                       .-. \ \| \ 
