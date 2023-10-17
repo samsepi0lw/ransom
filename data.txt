@@ -833,7 +833,7 @@ ___________
 "remove","soil","meat","needle","atmosphere"
 "frame","subject","nodded","winter","learn"
 "fastened","curve","hide","compare","bill"
-If you have 3 quarters, 4 dimes, and 4 pennies, you have $1.19. You also have the largest amount of money in coins without being able to make change for a dollar.
+f you have 3 quarters, 4 dimes, and 4 pennies, you have $1.19. You also have the largest amount of money in coins without being able to make change for a dollar.
 
 The numbers '172' can be found on the back of the U.S. $5 dollar bill in the bushes at the base of the Lincoln Memorial.
 
@@ -845,7 +845,7 @@ Odontophobia is the fear of teeth.
 
 The 57 on Heinz ketchup bottles represents the number of varieties of pickles the company once had.
 
-In the early days of the telephone, operators would pick up a call and use the phrase, "Well, are you there?". It wasn't until 1895 that someone suggested answering the phone with the phrase "number please?"
+In the early days of the telephone, operators would pick up a call and use the phrase, "Well, are you there?". It wasn't until 1895 that someone suggested answering the pho>
 
 The surface area of an average-sized brick is 79 cm squared.
 
@@ -855,7 +855,7 @@ Cats sleep 16 to 18 hours per day.
 
 The most common name in the world is Mohammed.
 
-It is believed that Shakespeare was 46 around the time that the King James Version of the Bible was written. In Psalms 46, the 46th word from the first word is shake and the 46th word from the last word is spear.
+It is believed that Shakespeare was 46 around the time that the King James Version of the Bible was written. In Psalms 46, the 46th word from the first word is shake and th>
 
 Karoke means "empty orchestra" in Japanese.
 
@@ -885,15 +885,15 @@ The Neanderthal's brain was bigger than yours is.
 
 On the new hundred dollar bill the time on the clock tower of Independence Hall is 4:10.
 
-Each of the suits on a deck of cards represents the four major pillars of the economy in the middle ages: heart represented the Church, spades represented the military, clubs represented agriculture, and diamonds represented the merchant class.
+Each of the suits on a deck of cards represents the four major pillars of the economy in the middle ages: heart represented the Church, spades represented the military, clu>
 
 The names of the two stone lions in front of the New York Public Library are Patience and Fortitude. They were named by then-mayor Fiorello LaGuardia.
 
-The Main Library at Indiana University sinks over an inch every year because when it was built, engineers failed to take into account the weight of all the books that would occupy the building.
+The Main Library at Indiana University sinks over an inch every year because when it was built, engineers failed to take into account the weight of all the books that would>
 
 The sound of E.T. walking was made by someone squishing her hands in jelly.
 
-Lucy and Linus (who where brother and sister) had another little brother named Rerun. (He sometimes played left-field on Charlie Brown's baseball team, [when he could find it!]).
+Lucy and Linus (who where brother and sister) had another little brother named Rerun. (He sometimes played left-field on Charlie Brown's baseball team, [when he could find >
 
 The pancreas produces Insulin.
 
@@ -906,65 +906,3 @@ A skunk's smell can be detected by a human a mile away.
 The word "lethologica" describes the state of not being able to remember the word you want.
 
 The king of hearts is the only king without a moustache.
-
-Henry Ford produced the model T only in black because the black paint available at the time was the fastest to dry.
-
-Mario, of Super Mario Bros. fame, appeared in the 1981 arcade game, Donkey Kong. His original name was Jumpman, but was changed to Mario to honor the Nintendo of America's landlord, Mario Segali.
-
-The three best-known western names in China: Jesus Christ, Richard Nixon, and Elvis Presley.
-
-Every year about 98% of the atoms in your body are replaced.
-
-Elephants are the only mammals that can't jump.
-
-The international telephone dialing code for Antarctica is 672.
-
-World Tourist day is observed on September 27.
-
-Women are 37% more likely to go to a psychiatrist than men are.
-
-The human heart creates enough pressure to squirt blood 30 feet (9 m).
-
-Diet Coke was only invented in 1982.
-
-There are more than 1,700 references to gems and precious stones in the King James translation of the Bible.
-
-When snakes are born with two heads, they fight each other for food.
-
-American car horns beep in the tone of F.
-
-Turning a clock's hands counterclockwise while setting it is not necessarily harmful. It is only damaging when the timepiece contains a chiming mechanism.
-
-There are twice as many kangaroos in Australia as there are people. The kangaroo population is estimated at about 40 million.
-
-Police dogs are trained to react to commands in a foreign language; commonly German but more recently Hungarian.
-
-The Australian $5 to $100 notes are made of plastic.
-
-St. Stephen is the patron saint of bricklayers.
-
-The average person makes about 1,140 telephone calls each year.
-
-Stressed is Desserts spelled backwards.
-
-If you had enough water to fill one million goldfish bowls, you could fill an entire stadium.
-
-Mary Stuart became Queen of Scotland when she was only six days old.
-
-Charlie Brown's father was a barber.
-
-Flying from London to New York by Concord, due to the time zones crossed, you can arrive 2 hours before you leave.
-
-Dentists have recommended that a toothbrush be kept at least 6 feet (2 m) away from a toilet to avoid airborne particles resulting from the flush.
-
-You burn more calories sleeping than you do watching TV.
-
-A lion's roar can be heard from five miles away.
-
-The citrus soda 7-UP was created in 1929; "7" was selected because the original containers were 7 ounces. "UP" indicated the direction of the bubbles.
-
-Canadian researchers have found that Einstein's brain was 15% wider than normal.
-
-The average person spends about 2 years on the phone in a lifetime.
-
-The fist product to have a bar code was Wrigleys gum. 
